@@ -1,0 +1,14 @@
+pocket:
+  name: 康康
+  age: 0
+  county: 丰台区
+  address: 北京市${pocket.county}
+
+
+test:
+  randomInt: ${random.int}
+  randomIntMax: ${random.int(10)}
+  randomIntMiddle: ${random.int(20,50)}
+  randomLong: ${random.long}
+  randomValue: ${random.value}
+  randomUuid: ${random.uuid}
